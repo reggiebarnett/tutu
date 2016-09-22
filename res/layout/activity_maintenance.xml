@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/black" >
+    
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="20dp"
+	        android:paddingBottom="20dp"
+	        android:paddingLeft="20dp"
+	        android:textColor="@color/Chartreuse"
+	        android:textSize="34sp"
+	        android:textStyle="italic"
+	        android:text="@string/maintenanceTitle" />
+	</TableRow>
+     <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:id="@+id/totalMilesID"
+	        android:text="@string/totalMaintenanceMiles" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Orange"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:id="@+id/totalMilesNumberID"
+	        android:text="@string/totalMaintenanceMilesNumber" />
+    </TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:id="@+id/tirePressureID"
+	        android:text="@string/tirePressure" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Orange"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:id="@+id/tirePressureNumberID"
+	        android:text="@string/tirePressureNumber" />
+	</TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:id="@+id/checkBrakesID"
+	        android:text="@string/checkBrakes" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Orange"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:id="@+id/checkBrakesNumberID"
+	        android:text="@string/checkBrakesNumber" />
+    </TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:id="@+id/checkChainID"
+	        android:text="@string/checkChain" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Orange"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:id="@+id/checkChainNumberID"
+	        android:text="@string/checkChainNumber" />
+    </TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:id="@+id/wheelTruenessID"
+	        android:text="@string/wheelTrueness" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Orange"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:id="@+id/wheelTruenessNumberID"
+	        android:text="@string/wheelTruenessNumber" />
+    </TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:id="@+id/bikeFrameID"
+	        android:text="@string/bikeFrame" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Orange"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:id="@+id/bikeFrameNumberID"
+	        android:text="@string/bikeFrameNumber" />
+    </TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:id="@+id/checkWheelsID"
+	        android:text="@string/checkWheels" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Orange"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:id="@+id/checkWheelsNumberID"
+	        android:text="@string/checkWheelsNumber" />
+    </TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:id="@+id/lubeCablesID"
+	        android:text="@string/lubeCables" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Orange"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:id="@+id/lubeCablesNumberID"
+	        android:text="@string/lubeCablesNumber" />
+    </TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:id="@+id/checkTiresID"
+	        android:text="@string/checkTires" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Orange"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:id="@+id/checkTiresNumberID"
+	        android:text="@string/checkTiresNumber" />
+    </TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:id="@+id/checkFrayingID"
+	        android:text="@string/checkFraying" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Orange"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:id="@+id/checkFrayingNumberID"
+	        android:text="@string/checkFrayingNumber" />
+    </TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:id="@+id/replaceBrakesID"
+	        android:text="@string/replaceBrakes" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Orange"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:id="@+id/replaceBrakesNumberID"
+	        android:text="@string/replaceBrakesNumber" />
+    </TableRow>
+
+</TableLayout>

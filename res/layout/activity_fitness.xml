@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/black" >
+    
+     <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="20dp"
+	        android:paddingBottom="20dp"
+	        android:paddingLeft="20dp"
+	        android:textColor="@color/Violet"
+	        android:textSize="34sp"
+	        android:textStyle="italic"
+	        android:text="@string/fitnessTitle" />
+	</TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Chartreuse"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:text="@string/totalTrips"
+	        android:id="@+id/totalTripsID" />
+ 	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:text="@string/totalTripsNumber"
+	        android:id="@+id/totalTripsNumberID" />
+    </TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Chartreuse"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:text="@string/totalMiles"
+	        android:id="@+id/totalMilesID" />
+ 	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:text="@string/totalMilesNumber"
+	        android:id="@+id/totalMilesNumberID" />
+    </TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Chartreuse"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:text="@string/avgDist"
+	        android:id="@+id/avgDistID" />
+ 	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:text="@string/avgDistNumber"
+	        android:id="@+id/avgDistNumberID" />
+    </TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Chartreuse"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:text="@string/totalCal"
+	        android:id="@+id/totalCalID" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:text="@string/totalCalNumber"
+	        android:id="@+id/totalCalNumberID" />
+    </TableRow>
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Chartreuse"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:text="@string/avgCal"
+	        android:id="@+id/avgCalID" />
+ 	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Aqua"
+	        android:paddingLeft="10dp"
+	        android:textSize="24sp"
+	        android:textStyle="bold"
+	        android:text="@string/avgCalNumber"
+	        android:id="@+id/avgCalNumberID" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,194 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.4393871,
+               "lng" : -79.95277670000002
+            },
+            "southwest" : {
+               "lat" : 40.4307435,
+               "lng" : -79.95986889999999
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "0.9 mi",
+                  "value" : 1516
+               },
+               "duration" : {
+                  "text" : "6 mins",
+                  "value" : 350
+               },
+               "end_address" : "206 Coltart Avenue, Pittsburgh, PA 15213, USA",
+               "end_location" : {
+                  "lat" : 40.4384929,
+                  "lng" : -79.9595623
+               },
+               "start_address" : "3226 Dawson Street, Pittsburgh, PA 15213, USA",
+               "start_location" : {
+                  "lat" : 40.4307435,
+                  "lng" : -79.9540066
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 617
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 172
+                     },
+                     "end_location" : {
+                        "lat" : 40.4362117,
+                        "lng" : -79.95277670000002
+                     },
+                     "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e on \u003cb\u003eDawson St\u003c/b\u003e toward \u003cb\u003eDawson Ct\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "cswuFp__gNoB[aBSuCc@qAQgBYq@I}BUMCeG_A_BQ"
+                     },
+                     "start_location" : {
+                        "lat" : 40.4307435,
+                        "lng" : -79.9540066
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "394 ft",
+                        "value" : 120
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 15
+                     },
+                     "end_location" : {
+                        "lat" : 40.4364413,
+                        "lng" : -79.95416209999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eSemple St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "iuxuFzw~fNOzAQdCKp@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.4362117,
+                        "lng" : -79.95277670000002
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "233 ft",
+                        "value" : 71
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 14
+                     },
+                     "end_location" : {
+                        "lat" : 40.4358147,
+                        "lng" : -79.95430829999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eWard St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "wvxuFn`_gN|B\\"
+                     },
+                     "start_location" : {
+                        "lat" : 40.4364413,
+                        "lng" : -79.95416209999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 566
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 131
+                     },
+                     "end_location" : {
+                        "lat" : 40.4393871,
+                        "lng" : -79.9589762
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eMckee Pl\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "yrxuFla_gNCx@QTMNaArAs@x@gAvA{FtHe@n@gExF"
+                     },
+                     "start_location" : {
+                        "lat" : 40.4358147,
+                        "lng" : -79.95430829999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "344 ft",
+                        "value" : 105
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 13
+                     },
+                     "end_location" : {
+                        "lat" : 40.438736,
+                        "lng" : -79.95986889999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eIroquois Way\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "eiyuFr~_gN`CpD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.4393871,
+                        "lng" : -79.9589762
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "121 ft",
+                        "value" : 37
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 5
+                     },
+                     "end_location" : {
+                        "lat" : 40.4384929,
+                        "lng" : -79.9595623
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eColtart Ave\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "ceyuFdd`gNp@}@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.438736,
+                        "lng" : -79.95986889999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "cswuFp__gNyLeByCc@kCYeG_A_BQa@`FKp@|B\\Cx@QToAbB{BpCaHdJgExF`CpDp@}@"
+         },
+         "summary" : "Dawson St and Mckee Pl",
+         "warnings" : [
+            "Bicycling directions are in beta. Use caution – This route may contain streets that aren't suited for bicycling."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
